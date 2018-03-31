@@ -37,8 +37,9 @@ public class DemoPageClass {
 	}
 
 	public static void waitForTestingPage() {
-		WebElement element = driver.findElement(By.linkText(" Tutorial"));
-
+		driver.findElement(By.linkText("Home")).isDisplayed();
+		driver.findElement(By.partialLinkText("Testing"));
+		driver.quit();
 	}
 
 	public static void captureScreenshot() {
@@ -57,6 +58,8 @@ public class DemoPageClass {
 			System.out.println(e.getMessage());
 
 		}
+
+		
 
 	}
 

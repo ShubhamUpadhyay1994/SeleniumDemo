@@ -8,15 +8,4 @@
       <class name="com.automation.DemoProject.DemoTestClass"/>
     </classes>
   </test> <!-- hello -->
-  <test name="hello(failed)">
-    <parameter name="url" value="https://www.guru99.com/"/>
-    <classes>
-      <class name="com.automation.DemoProject.DemoTestClass">
-        <methods>
-          <include name="testUrl"/>
-          <include name="testHomePage"/>
-        </methods>
-      </class> <!-- com.automation.DemoProject.DemoTestClass -->
-    </classes>
-  </test> <!-- hello(failed) -->
 </suite> <!-- Failed suite [Suite1] -->
