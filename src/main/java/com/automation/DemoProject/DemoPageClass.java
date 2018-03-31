@@ -27,7 +27,7 @@ public class DemoPageClass {
 	}
 
 	public static void waitForHomePage() {
-		WebElement home = driver.findElement(By.linkText("Home"));
+		WebElement home = driver.findElement(By.linkText("Home1"));
 		WebElement tools = driver.findElement(By.linkText("Testing"));
 	}
 
