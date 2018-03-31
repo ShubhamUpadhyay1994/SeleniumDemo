@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite1" verbose="1">
+	<test name="hello">
+		<classes>
+			<class name="com.automation.DemoProject.DemoTestClass" />
+			<parameter name="url" value="https://www.guru99.com/" />
+		</classes>
+	</test>
+
+</suite>
